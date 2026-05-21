@@ -1,2 +1,17 @@
+# frozen_string_literal: true
+
 source "https://rubygems.org"
-gemspec
+
+# gem "rails"
+
+gem "jekyll", "~> 4.3"
+
+group :jekyll_plugins do
+  gem 'jekyll-sitemap'
+  gem 'jekyll-seo-tag'
+end
+
+gem "jekyll-gist"
+gem "jekyll-include-cache"
+gem "jekyll-remote-theme"
+gem "faraday-retry"

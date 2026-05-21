@@ -1,7 +1,15 @@
-<!--
-  <li>
-    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
-      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
-    </a>
-  </li>
--->
+    {% if author.google.scholar %}
+      <li>
+        <a href="https://scholar.google.com/citations?user={{ author.google.scholar }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
+          <i class="fab fa-google" aria-hidden="true"></i><span class="label">Google Scholar</span>
+        </a>
+      </li>
+    {% endif %}
+
+    {% if author.orcid %}
+      <li>
+        <a href="http://ORCID.org/{{ author.orcid }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
+          <i class="fab fa-orcid" aria-hidden="true"></i><span class="label">Orcid</span>
+        </a>
+      </li>
+    {% endif %}

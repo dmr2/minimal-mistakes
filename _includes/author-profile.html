@@ -34,7 +34,7 @@
       {% if author.links %}
         {% for link in author.links %}
           {% if link.label and link.url %}
-            <li><a href="{{ link.url }}" rel="nofollow noopener noreferrer me"{% if link.url contains 'http' %} itemprop="sameAs"{% endif %}><i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i><span class="label">{{ link.label }}</span></a></li>
+            <li><a href="{{ link.url }}" rel="nofollow noopener noreferrer me"{% if link.url contains 'http' %} itemprop="sameAs"{% endif %}>{% if link.icon == 'substack' %}<svg class="svg-inline--fa fa-fw" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 24" aria-hidden="true" style="height:1em;vertical-align:-0.125em;fill:currentColor"><path d="M20.999 5.408H1v2.836h19.999V5.408zM1 10.808V24L10.999 18.428 20.999 24V10.808H1zM20.999 0H1v2.836h19.999V0z"/></svg>{% else %}<i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i>{% endif %}<span class="label">{{ link.label }}</span></a></li>
           {% endif %}
         {% endfor %}
       {% endif %}

@@ -1,12 +1,12 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+#  - title: "Blog"
+#    url: /posts/
+  - title: "CV"
+    url: https://www.dropbox.com/s/2scpa1wdatesm7e/rasmussen_cv.pdf?raw=1
+  - title: "Research"
+    url: /research/
+  - title: "Outreach"
+    url: /outreach/
+  - title: "Contact"
+    url: /contact/
