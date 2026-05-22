@@ -4,5 +4,9 @@
   "compatibility_date": "2026-05-22",
   "assets": {
     "directory": "_site"
-  }
+  },
+  "routes": [
+    { "pattern": "djrasmussen.co", "custom_domain": true },
+    { "pattern": "www.djrasmussen.co", "custom_domain": true }
+  ]
 }
