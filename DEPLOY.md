@@ -34,13 +34,21 @@ The rest of the deploy is driven by `wrangler.jsonc` in this repo:
 ```jsonc
 {
   "name": "dj-research",
-  "assets": { "directory": "_site" },        // upload the built site as static assets
+  "main": "worker.js",                         // entry script (handles the www redirect)
+  "assets": {
+    "directory": "_site",                      // the built site, served as static assets
+    "binding": "ASSETS",                       // worker.js serves files via env.ASSETS
+    "run_worker_first": true                   // run worker.js on every request
+  },
   "routes": [                                  // bind the custom domains to the Worker
     { "pattern": "djrasmussen.co", "custom_domain": true },
     { "pattern": "www.djrasmussen.co", "custom_domain": true }
   ]
 }
 ```
+
+`worker.js` 301-redirects `www.djrasmussen.co` to the bare `djrasmussen.co`
+(the canonical host) and serves the static site for everything else.
 
 Having `wrangler.jsonc` present is important: without it, `wrangler deploy` runs an
 auto-config step that mis-detects the build command (as `npx bundle exec jekyll build`,
@@ -63,16 +71,10 @@ which fails — `bundle` is a Ruby executable, not an npm package).
 `custom_domain` routes above; Cloudflare manages their DNS records and SSL. This
 requires the zone to be on Cloudflare DNS (nameservers `*.ns.cloudflare.com`).
 
-### Optional: www → apex redirect
+### www → apex redirect
 
-Both apex and www currently serve the Worker directly. To instead redirect
-`www` to the bare domain (matching the site's canonical URLs), add a **Redirect Rule**
-(dashboard → the `djrasmussen.co` zone → **Rules → Redirect Rules → Create**):
-
-- **When incoming requests match:** `Hostname` `equals` `www.djrasmussen.co`
-- **Then... Type:** Dynamic
-- **Expression:** `concat("https://djrasmussen.co", http.request.uri.path)`
-- **Status code:** 301
+`www.djrasmussen.co` 301-redirects to the bare `djrasmussen.co` (matching the
+site's canonical URLs). This is handled in `worker.js`, not a dashboard rule.
 
 ## Workflow
 
