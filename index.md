@@ -8,17 +8,19 @@ header:
 author_profile: true
 ---
 
-I am a climate risk professional who specializes in using data and analytics to support decision-making related to climate change and natural hazards. I am the founding principal of [Degree Day](https://www.degreeday.org), an independent climate risk research provider and consulting firm.
+I'm a climate risk professional applying data and analytics to decisions about climate change and natural hazards, including floods, wildfire, extreme heat, sea-level rise, and the compounding risks between them. I'm the founding principal of [Degree Day](https://www.degreeday.org), an independent climate risk research and analytics firm. I help clients answer practical questions, like how high to build, how much risk to hold, and where to invest in protection, with methods rigorous enough to stand behind.
 
-I have [studied](https://www.djrasmussen.co/research/) climate change, natural hazards, and resilience strategies for mitigating their impacts since 2010, publishing over a dozen peer-reviewed articles, reports, and books on probabilistic climate risk assessment, climate adaptation decision-making, and assessments of relevant public policies. I also regularly peer-review climate risk research.
+For over 15 years I have [studied](https://www.djrasmussen.co/research/) climate change, natural hazards, and strategies for building resilience to their impacts. I have authored numerous peer-reviewed articles on probabilistic climate risk assessment, adaptation decision-making, and public policy in journals including _Science_, _Nature Climate Change_, and _Earth's Future_, along with many technical reports, and I regularly serve as a peer reviewer of climate risk research. I am a contributing author of [_American Climate Prospectus: Economic Risks in the United States_](https://www.amazon.com/Economic-Risks-Climate-Change-Prospectus/dp/023117456X), the assessment underlying the Risky Business initiative. Research I have contributed to has been cited in the President's 2016 Federal Budget and the 2023 Economic Report of the President, featured on the front page of _The New York Times_, and recognized with editors' choice awards from ASCE and _Environmental Research Letters_.
 
-A central aspect of my work is applying academic research and statistical methods to help solve real-world problems that clients face. I also seek to scale up applications of this knowledge using user-friendly digital tools to incorporate natural hazard and climate risks into risk management, financial disclosure, and resilient infrastructure planning. My hope is that these efforts will better price risks, encourage investment in resilience, limit business and governance disruptions, maintain positive reputations, and improve overall human well-being.
+Before founding Degree Day, I was a research fellow at Princeton's [Center for Policy Research on Energy and the Environment (CPREE)](https://cpree.princeton.edu/) and at NOAA's [Geophysical Fluid Dynamics Laboratory (GFDL)](https://www.gfdl.noaa.gov).
 
-I am a contributing author of [_American Climate Prospectus: Economic Risks in the United States_](https://www.amazon.com/Economic-Risks-Climate-Change-Prospectus/dp/023117456X). I previously was a research fellow at the [Center for Policy Research on Energy and the Environment (CPREE)](https://cpree.princeton.edu/) at [Princeton University](https://www.princeton.edu) and at the [Geophysical Fluid Dynamics Laboratory (GFDL)](https://www.gfdl.noaa.gov) of the [National Oceanic and Atmospheric Administration (NOAA)](https://www.noaa.gov).
+#### Education
 
-I completed my PhD in the [Science, Technology, and Environmental Policy (STEP)](https://cpree.princeton.edu/step-program/step-phd-public-affairs) Program at the [School of Public and International Affairs](https://spia.princeton.edu) at [Princeton University](https://www.princeton.edu). I received an MS in civil and environmental engineering from the [University of California-Davis](https://cee.engr.ucdavis.edu) and a BS in [atmospheric and oceanic science](https://www.aos.wisc.edu) from [UW-Madison](https://www.wisc.edu).
- 
-_Last updated: May 2026._
+* PhD, Climate Risk and Resilience, [Princeton University](https://www.princeton.edu)
+* MS, Civil and Environmental Engineering, [UC Davis](https://cee.engr.ucdavis.edu)
+* BS, Atmospheric and Oceanic Sciences, [UW-Madison](https://www.wisc.edu)
+
+_Last updated: July 2026._
 
 #### [In the media](https://www.google.com/search?hl=en&gl=us&tbm=nws&q="DJ+Rasmussen"+OR+"DJ+Rasmussen"+Princeton+OR+"D.J.+Rasmussen")
 
