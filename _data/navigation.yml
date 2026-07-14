@@ -3,7 +3,7 @@ main:
 #  - title: "Blog"
 #    url: /posts/
   - title: "CV"
-    url: https://github.com/dmr2/cv/blob/master/cv.pdf
+    url: https://github.com/dmr2/cv/blob/master/rasmussen_cv.pdf
   - title: "Research"
     url: /research/
   - title: "Outreach"
