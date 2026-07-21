@@ -24,6 +24,7 @@ _Last updated: July 2026._
 
 #### [In the media](https://www.google.com/search?hl=en&gl=us&tbm=nws&q="DJ+Rasmussen"+OR+"DJ+Rasmussen"+Princeton+OR+"D.J.+Rasmussen")
 
+* ["Boston unveils a $10b coastal flood defense plan. But who will pay?"](https://www.bostonglobe.com/2026/07/20/science/army-corps-boston-coastline-flooding-climate/) *The Boston Globe.* 20 July 2026.
 * ["Storm surge and making friends: 9am hour."](https://open.spotify.com/episode/7Mo7pHFpWUEXYsq2FHOQ6M?si=8fbd7355065444bc) *WWL First News with Tommy Tucker.* 10 June 2025.
 * ["Storm surge frequency is rising, but Big Bend still a black box."](https://www.wuft.org/environment/2025-06-09/storm-surge-frequency-is-rising-but-big-bend-still-a-black-box) *NPR/WUFT.* 9 June 2025.
 * ["Is storm surge worsening along Louisiana's coast? Research shows reasons for concern."](https://www.nola.com/news/environment/storm-surge-hurricane-louisiana-gulf/article_7dd31f65-064c-4ece-b166-a2fb5317039d.html) *The Times-Picayune.* 6 June 2025.
