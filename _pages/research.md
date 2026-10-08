@@ -11,6 +11,8 @@ alias: [/papers/]
 ### Peer-Reviewed Publications
 
 
+**D.J. Rasmussen**, 2026: Global 1-km climatic design extremes at ungauged locations via machine learning regionalization of extreme value parameters. *Proceedings of the 2026 ASHRAE Annual Conference,* Austin, TX. Paper AU-26-C074. [[PDF]](/assets/papers/Rasmussen_ASHRAE26_Global1km_DesignExtremes.pdf)
+
 D.J. Rasmussen, 2026: Multivariate bias correction of ERA5 using in-situ observations for planning and engineering. *Environmental Research: Climate,* 5, 025026. doi: 10.1088/2752-5295/ae63ee [[LINK]](https://iopscience.iop.org/article/10.1088/2752-5295/ae63ee) [[DATASET]](https://zenodo.org/records/19865854) [[Web App]](https://scope-era5.degreeday.org)
 
 Joao Morim, **D.J. Rasmussen**, Thomas Wahl, Francisco M. Calafat, Robert E. Kopp, Michael Oppenheimer & Soenke Dangendorf, 2025: US-CoastEX: Observation-based probabilistic reanalysis of storm surge and sea level extremes for the United States. *Scientific Data.* doi: 10.1038/s41597-025-05730-1 [[LINK]](https://www.nature.com/articles/s41597-025-05730-1) [[DATASET]](https://zenodo.org/records/14915031)
